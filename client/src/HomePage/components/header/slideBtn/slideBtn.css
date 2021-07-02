@@ -1,0 +1,10 @@
+.slideBtn{
+    display: none;
+
+}
+
+@media (max-width: 361px){
+    .slideBtn{
+        display: block;
+    }
+  }

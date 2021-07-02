@@ -1,0 +1,27 @@
+.bodyContent{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 130px;
+    justify-items: center;
+    align-items: center;  
+    justify-content: center;  
+    margin: auto;
+    max-width: 1400px;
+    padding: 32px;
+}
+
+
+.bodyContent-container{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+
+@media (max-width: 361px){
+    .bodyContent{
+        flex-direction: column-reverse;
+        grid-gap: 30px;
+        padding: 15px
+    }
+    
+}

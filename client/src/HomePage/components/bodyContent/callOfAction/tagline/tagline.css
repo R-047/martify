@@ -1,0 +1,23 @@
+.tagline{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 118.5%;
+    letter-spacing: 0.055em;
+    color: #000000;
+    margin: 0px;
+     
+}
+
+@media (max-width: 361px){
+    .tagline{
+        font-size: 2rem
+    }
+}
+
+/* @media (max-width: 1070px){
+    .tagline{
+        
+    }
+} */

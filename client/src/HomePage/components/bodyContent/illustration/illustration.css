@@ -1,0 +1,16 @@
+.pic {
+  background-image: url("./FramemianIllus.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 600px;
+  height: 500px;
+}
+
+
+@media (max-width: 361px){
+  .pic {
+    width: 300px;
+    height: 300px;
+  }
+
+}
